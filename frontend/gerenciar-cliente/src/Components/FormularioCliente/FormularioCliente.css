@@ -1,0 +1,82 @@
+.formulario-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.formulario-container h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.titulo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icone-perfil {
+  width: 30px;
+  height: 30px;
+}
+
+.formulario-container h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.formulario-container p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.botoes-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.botao-criar {
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botao-voltar {
+  padding: 10px 20px;
+  background-color: white;
+  color: #FFA500;
+  border: 1px solid #FFA500;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.title {
+  border-bottom: 1px solid #000000;
+  padding: 10px 0;
+}
